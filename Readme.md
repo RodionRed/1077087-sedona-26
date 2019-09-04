@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Родион Сайфулин](https://up.htmlacademy.ru/htmlcss/26/user/1077087).
-* Наставник: `Неизвестно`.
+* Наставник: `Владислав Кривокора`(https://htmlacademy.ru/profile/krivokora).
 
 ---
 
