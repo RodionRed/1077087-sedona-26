@@ -20,54 +20,111 @@
     </nav>
   </header>
   <main>
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <fildset class="checkbox-infrastructure">
+        <legend class="infrastructure-legend">Инфраструктура:</legend>
+        <div class="infrastructure">
+          <ul>
+            <li>
+              <input type="checkbox" name="swiming-pool" id="a-swiming-pool">
+              <label for="swiming-pool">Бассейн</label>
+            </li>
+            <li>
+              <input type="checkbox" name="parking" id="a-parking">
+              <label for="parking">Парковка</label>
+            </li>
+            <li>
+              <input type="checkbox" name="wi-fi" id="a-wi-fi">
+              <label for="a-wi-fi">wi-fi</label>
+            </li>
+          </ul>
+        </div>
+      </fildset>
+      <fildset class="checkbox-type-of-house">
+        <legend class="type-of-house-legend">Тип жилья</legend>
+        <div class="type-of-house">
+          <ul>
+            <li>
+              <input type="checkbox" name="hotel" id="a-hotel">
+              <label for="a-hotel">гостинница</label>
+            </li>
+            <li>
+              <input type="checkbox" name="motel" id="a-motel">
+              <label for="a-motel">Мотель</label>
+            </li>
+            <li>
+              <input type="checkbox" name="apartments" id="a-apartments">
+              <label for="a-apartments">апартаменты</label>
+            </li>
+          </ul>
+        </div>
+      </fildset>
+      <fildset>
+        <legend class="price-per-day-legend">Стоимость в сутки (Р):</legend>
+        <div class="price-per-day">
+          <span class="price-min">От 0</span><span class="price-max">До 3000</span>
+        </div>
+        <div class="price-range">
+          <label for="price-range"></label>
+          <input type="range" name="price" id="price-range" min="0" max="3000" step="1">
+        </div>
+        <div class="show-request">
+          <button type="submit" class="show-request">Показать</button>
+        </div>
+      </fildset>
+    </form>
     <section>
       <h2 class="conditions">условия</h2>
     </section>
     <section>
-    <ul>
-      <li class="price">по цене</li>
-      <li class="type">по типу</li>
-      <li class="rating">по рейтингу</li>
-    </ul>
-    <ul>
-      <li><img src="img/hotel-amara-resort.png">
-        <h3 class="hotel-name"><a href="">Amara Resort & Spa</a></h3>
-        <table>
-          <tr>
-            <td class="pricehotel">гостинница</td>
-            <td class="pricehotel">от 4000 р.</td>
-          </tr>
-        </table>
-        <a href="#"></a>
-        <a href="#"></a>
-      </li>
-    </ul>
-    <ul>
-      <li><img src="img/hotel-desert-quail.png">
-        <h3 class="hotel-name"><a href="">Desert Quail Inn</a></h3>
-        <table>
-          <tr>
-            <td class="pricehotel">мотель</td>
-            <td class="pricehotel">от 3000 р.</td>
-          </tr>
-        </table>
-        <a href=""></a>
-        <a href=""></a>
-      </li>
-    </ul>
-    <ul>
-      <li><img src="img/hotel-villas-at-poco-diablo.png">
-        <h3 class="hotel-name"><a href="">Villas at Poco Diablo</a></h3>
-        <table>
-          <tr>
-            <td class="pricehotel">апартаменты</td>
-            <td class="pricehotel">от 2000 р.</td>
-          </tr>
-        </table>
-        <a href="#"></a>
-        <a href="#"></a>
-      </li>
-    </ul>
+      <p>Сортировка</p>
+      <ul>
+        <li class="price">по цене</li>
+        <li class="type">по типу</li>
+        <li class="rating">по рейтингу</li>
+      </ul>
+      <ul>
+        <li>
+          <img src="img/hotel-amara-resort.png">
+          <h3 class="hotel-name"><a href="">Amara Resort & Spa</a></h3>
+          <table>
+            <tr>
+              <td class="pricehotel">гостинница</td>
+              <td class="pricehotel">от 4000 р.</td>
+            </tr>
+          </table>
+          <a href="#"></a>
+          <a href="#"></a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <img src="img/hotel-desert-quail.png">
+          <h3 class="hotel-name"><a href="">Desert Quail Inn</a></h3>
+          <table>
+            <tr>
+              <td class="pricehotel">мотель</td>
+              <td class="pricehotel">от 3000 р.</td>
+            </tr>
+          </table>
+          <a href="#"></a>
+          <a href="#"></a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <img src="img/hotel-villas-at-poco-diablo.png">
+          <h3 class="hotel-name"><a href="">Villas at Poco Diablo</a></h3>
+          <table>
+            <tr>
+              <td class="pricehotel">апартаменты</td>
+              <td class="pricehotel">от 2000 р.</td>
+            </tr>
+          </table>
+          <a href="#"></a>
+          <a href="#"></a>
+        </li>
+      </ul>
     </section>
   </main>
   <footer>
