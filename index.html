@@ -4,15 +4,18 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <nav>
-      <ul>
+    <nav class="main-navigation">
+      <ul class="site-navigation">
         <li><a href="#">Информация</a></li>
         <li><a href="#">Фото и видео</a></li>
-        <li><a><img src="img/logo-sedona.svg"></a></li>
+        <li class="logo-sedona"><a><img src="img/logo-sedona.svg"></a></li>
         <li><a href="#">Карта штата</a></li>
         <li><a href="hotels.html">Гостиницы</a></li>
       </ul>
@@ -20,11 +23,17 @@
   </header>
   <main>
     <h1 class="visually-hidden">SEDONA</h1> <!--  <p>Капс для себя, все равно надпись не будет высвечиваться</p> -->
-    <section>
+    <section class="top-image">
+      <div class=""></div>
+    </section>
+    <section class="word-welcome">
+      <div><img src="img/welcome.png"></div>
+    </section>
+    <section class="feature-promo">
       <h2>Седона — небольшой городок в Аризоне,заслуживающий большего!</h2>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
     </section>
-    <section>
+    <section class="feature-blue">
       <ul>
         <li class="future-item future-item-blue">
           <div>
@@ -110,9 +119,9 @@
         <button type="submit">Найти</button>
       </form>
     </section>
-    <section>
+    <section class="quote">
       <h2>Заинтересовались?</h2>
-      <p>Укажите предполагаемые даты поездки,
+      <p>Укажите предполагаемые даты поездки,<br>
         и мы покажем вам лучшие предложения гостиниц в седоне
       </p>
     </section>
@@ -120,18 +129,21 @@
       <img src="img/map.png" alt="Карта">
     </div>
   </main>
-  <footer>
+  <footer class="footer">
     <p>#visitsedona</p>
     <ul>
       <li><a href="#" class="social-link twitter" aria-label="">Твитер</a></li>
       <li><a href="#" class="social-link facebook" aria-label="">Фейсбук</a></li>
       <li><a href="#" class="social-link youtube" aria-label="">Ютуб</a></li>
     </ul>
-    <span>website by</span>
+    <div class="link-academy">
+    <span class="website-by">website by</span>
     <img src="#">
     <a href="https://htmlacademy.ru">html academy</a>
+    </div>
     </ul>
   </footer>
 </body>
 
 </html>
+

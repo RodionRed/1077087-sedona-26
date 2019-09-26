@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:hover,
+a:focus {
+  background-color: #81b3d2;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+
+.site-navigation li {
+  display: inline;
+  padding: 0px 1px;
+  float: left;
+  margin-left: 75px;
+  margin-right: 75px;
+  text-indent: 30px;
+}
+
+.logo-sedona {
+  width: 150px;
+}
+
+ul {
+  list-style: none;
+}
+
+.word-welcome {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 300px;
+}
+
+.feature-promo {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.feature-promo h2 {
+  font-size: 21px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  word-wrap: break-word;
+  margin-left: 500px;
+  margin-top: 50px;
+  width: 500px;
+}
+
+.feature-promo p{
+    font-size: 14px;
+    color: #333333;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.visually-hidden {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.quote {
+  text-align: center;
+}
+
+.quote h2 {
+  font-size: 21px;
+  font-family: sans-serif;
+  font-weight: bold;
+  word-wrap: break-word;
+  margin-left: 500px;
+  margin-top: 50px;
+  width: 500px;
+}
+
+.quote p{
+  font-family: sans-serif;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.footer{
+
+}
+
+.footer p{
+  position: relative;
+  margin-top: 10px;
+}
+
+.footer ul{
+  text-align: center;
+}
+
+.footer .link-academy{
+  text-align: right;
+}
