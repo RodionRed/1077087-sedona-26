@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet"
+    type="text/css">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
 </head>
@@ -15,20 +16,17 @@
       <ul class="site-navigation">
         <li><a href="#">Информация</a></li>
         <li><a href="#">Фото и видео</a></li>
-        <li class="logo-sedona"><a><img src="img/logo-sedona.svg"></a></li>
+        <li class="logo-sedona"><a><img src="img/logo-sedona.svg" width="138" height="70" alt="Седона"></a></li>
         <li><a href="#">Карта штата</a></li>
         <li><a href="hotels.html">Гостиницы</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <h1 class="visually-hidden">SEDONA</h1> <!--  <p>Капс для себя, все равно надпись не будет высвечиваться</p> -->
-    <section class="top-image">
-      <div class=""></div>
-    </section>
-    <section class="word-welcome">
-      <div><img src="img/welcome.png"></div>
-    </section>
+    <h1 class="visually-hidden">SEDONA</h1>
+    <div class="top-image">
+      <img class="word-welcome" src="img/welcome.png">
+    </div>
     <section class="feature-promo">
       <h2>Седона — небольшой городок в Аризоне,заслуживающий большего!</h2>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
@@ -92,32 +90,40 @@
         </li>
       </ul>
     </section>
-    <section>
+    <section class="form">
       <h2 class="visually-hidden">Гостиницы в седоне поиск</h2>
-      <p class="hotel-search">Поиск гостинницы в седоне</p>
-      <form action="https://echo.htmlacademy.ru" method="post">
-        <p>
-          <label for="arrival-date">Дата заезда:</label>
-          <input type="date" name="arrival-date" id="arrival-date">
-        </p>
-        <p>
-          <label for="date-of-deporture">Дата выезда:</label>
-          <input type="date" name="date-of-deporture" id="date-of-deporture">
-        </p>
-        <p>
-          <label>Взрослые</label>
-          <button type="button">-<button>
-              <input type="text">
-            <button type="button">+</button>
-        </p>
-        <p>
-          <label>Дети</label>
-          <button type="button">-<button>
-              <input type="text">
-            <button type="button">+</button>
-        </p>
-        <button type="submit">Найти</button>
+      <a class="search-btn" href="#">Поиск гостинницы в седоне</a>
+      <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="form-line form-form">
+          <label for="date-arrival">Дата заезда:</label>
+          <input class="date-arrival" type="date" name="arrival-date" id="arrival-date">
+        </div>
+        <div class="form-line form-form">
+          <label for="date-deport">Дата выезда:</label>
+          <input class="date-deport" type="date" name="date-deporture" id="date-deporture">
+        </div>
+        <div class="form-line form-form">
+          <div class="number-abult">
+            <label for="abolt">Взрослые</label>
+            <div class="number-abults">
+              <button class="button-minus" type="button">-</button>
+              <input type="text" name="amolts" id="abolt" value="2" required>
+              <button class="button-plus" type="button">+</button>
+            </div>
+          </div>
+          <div class="number-children">
+            <label for="children">Дети</label>
+            <div class="number-childrens">
+              <button class="button-minus" type="button">-</button>
+              <input type="text" name="childrens" id="children" value="0" required>
+              <button class="button-plus" type="button">+</button>
+            </div>
+          </div>
+        </div>
+        </div>
+        <button class="search" type="submit">Найти</button>
       </form>
+    </section>
     </section>
     <section class="quote">
       <h2>Заинтересовались?</h2>
@@ -125,25 +131,23 @@
         и мы покажем вам лучшие предложения гостиниц в седоне
       </p>
     </section>
-    <div class="visually-hidden"  >
+    <div class="map">
       <img src="img/map.png" alt="Карта">
     </div>
   </main>
   <footer class="footer">
     <p>#visitsedona</p>
     <ul>
-      <li><a href="#" class="social-link twitter" aria-label="">Твитер</a></li>
-      <li><a href="#" class="social-link facebook" aria-label="">Фейсбук</a></li>
-      <li><a href="#" class="social-link youtube" aria-label="">Ютуб</a></li>
+      <li><a class="social-link" href="#" value="twitter"><span class="twitter"></span></a> </li>
+      <li><a class="social-link" href="#" value="facebook"><span class="facebook"></span></a></li>
+      <li><a class="social-link" href="#" value="youtube"><span class="youtube"></span></a></li>
     </ul>
     <div class="link-academy">
-    <span class="website-by">website by</span>
-    <img src="#">
-    <a href="https://htmlacademy.ru">html academy</a>
+      <span class="website-by">website by</span>
+      <a href="https://htmlacademy.ru">html academy</a>
     </div>
     </ul>
   </footer>
 </body>
 
 </html>
-

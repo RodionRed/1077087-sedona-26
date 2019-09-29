@@ -14,11 +14,10 @@ a{
   text-decoration: none;
 }
 
-a:hover,
-a:focus,
-a:hover,
-a:focus {
-  background-color: #81b3d2;
+.visually-hidden {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .main-navigation {
@@ -26,23 +25,38 @@ a:focus {
   line-height: 20px;
 }
 
+.site-navigation a{
+  color: #000000;
+}
+.site-navigation a:hover{
+  color: #81b3d2 ;
+}
+
+.site-navigation a:active{
+  color: #cecece;
+}
+
+.site-navigation ul{
+  float: left;
+  margin-left: 150px;
+}
 
 .site-navigation li {
   display: inline;
   padding: 0px 1px;
-  float: left;
-  margin-left: 75px;
-  margin-right: 75px;
-  text-indent: 30px;
+  margin-left: 150px;
 }
 
-.logo-sedona {
-  width: 150px;
+.top-image{
+  position: relative;
+  height: 500px;
+  background: #517ca4 url(/img/sedona-home-screen.png) no-repeat 50% 21%;
 }
 
 ul {
   list-style: none;
 }
+
 
 .word-welcome {
   margin-top: 150px;
@@ -68,16 +82,70 @@ ul {
 }
 
 .feature-promo p{
-    font-size: 14px;
-    color: #333333;
-    font-family: sans-serif;
-    font-weight: normal;
+  font-size: 14px;
+  color: #333333;
+  font-family: sans-serif;
+  font-weight: normal;
 }
 
-.visually-hidden {
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
+.search-btn{
+  background-color: #766357;
+  color: #ffffff;
+}
+.search-btn:hover{
+  background-color: #604e43;
+}
+.search-btn:active{
+  background-color: #503e33;
+}
+
+.form{
+  position: relative;
+  left: 650px;
+}
+
+.date-arrival,
+.date-deport{
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
+.date-arrival:hover,
+.date-deport:hover{
+  background-color: #ebebeb;
+  color: #000000;
+}
+
+.date-arrival:focus,
+.date-deport:focus{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.button-minus,
+.button-plus{
+  color: #a9a9a9;
+}
+.button-minus:hover,
+.button-plus:hover{
+  color: #000000;
+}
+.button-minus:active,
+.button-minus:active{
+  color: #81b3d2;
+}
+.search{
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+.search:hover{
+  background-color: #669ec0;
+  color: #ffffff;
+}
+.search:active{
+  background-color: #5496bd;
+  color: #88b6d1;
+  opacity: 0.5;
 }
 
 .quote {
@@ -99,11 +167,6 @@ ul {
   font-weight: normal;
   text-align: center;
   margin-top: 30px;
-
-}
-
-.footer{
-
 }
 
 .footer p{
@@ -115,6 +178,48 @@ ul {
   text-align: center;
 }
 
+footer ul{
+  position: absolute;
+  left: 650px;
+}
+.footer li{
+  float: left;
+  margin: 5px;
+}
+
+.social-link .twitter::before{
+  content: url(/img/icon-twitter.svg);
+  background-color: #81b3d2;
+}
+.social-link .facebook::before{
+  content: url(/img/fb-icon.svg);
+  background-color: #81b3d2;
+}
+.social-link .youtube::before{
+  content: url(/img/icon-youtube.svg);
+  background-color: #81b3d2;
+}
+
+.social-link a{
+  color: #81b3d2;
+}
+.social-link a:focus{
+  color: #669ec0;
+}
+.social-link a:active{
+  color: #5496bd;
+  opacity: 0.5;
+}
+
 .footer .link-academy{
   text-align: right;
+}
+.link-academy a{
+  color: #000000
+}
+.link-academy a:hover{
+  color: #81b3d2;
+}
+.link-academy a:active{
+  color: #bdbbbc;
 }
