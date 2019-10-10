@@ -14,12 +14,6 @@ a {
   text-decoration: none;
 }
 
-.visually-hidden {
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 .main-navigation {
   font-size: 16px;
   line-height: 20px;
@@ -28,8 +22,9 @@ a {
 .site-navigation a {
   color: #000000;
 }
+
 .site-navigation a:hover {
-  color: #81b3d2 ;
+  color: #81b3d2;
 }
 
 .site-navigation a:active {
@@ -57,163 +52,109 @@ ul {
   list-style: none;
 }
 
-
-.word-welcome {
-  margin-top: 150px;
-  text-align: center;
-  font-size: 300px;
+.hotels .amara {
+  color: #000000;
+}
+.hotels .amara:hover {
+  color: #81b3d2;
+}
+.hotels .amara:active {
+  color: #b2b2b2;
 }
 
-.feature-promo {
-  text-align: center;
-  margin-top: 0px;
+.hotels .quail {
+  color: #000000;
+}
+.hotels .quail:hover {
+  color: #81b3d2;
+}
+.hotels .quail:active {
+  color: #b2b2b2;
 }
 
-.feature-promo h2 {
-  font-size: 21px;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: sans-serif;
-  font-weight: bold;
-  word-wrap: break-word;
-  margin-left: 500px;
-  margin-top: 50px;
-  width: 500px;
+.hotels .poco {
+  color: #000000;
+}
+.hotels .poco:hover {
+  color: #81b3d2;
+}
+.hotels .poco:active {
+  color: #b2b2b2;
 }
 
-.feature-promo p {
-  font-size: 14px;
-  color: #333333;
-  font-family: sans-serif;
-  font-weight: normal;
-}
-
-.search-btn {
+.btn-right {
+  color: white;
   background-color: #766357;
-  color: #ffffff;
 }
 
-.search-btn:hover {
+
+.btn-right:hover {
+  color: white;
   background-color: #604e43;
 }
 
-.search-btn:active {
+.btn-right:active {
+  color: #857871;
   background-color: #503e33;
-}
-
-.form {
-  position: relative;
-  left: 650px;
-}
-
-.date-arrival,
-.date-deport {
-  background-color: #f2f2f2;
-  color: #000000;
-}
-
-.date-arrival:hover,
-.date-deport:hover {
-  background-color: #ebebeb;
-  color: #000000;
-}
-
-.date-arrival:focus,
-.date-deport:focus {
-  background-color: #ffffff;
-  color: #000000;
-}
-
-.button-minus,
-.button-plus {
-  color: #a9a9a9;
-}
-.button-minus:hover,
-.button-plus:hover {
-  color: #000000;
-}
-.button-minus:active,
-.button-minus:active {
-  color: #81b3d2;
-}
-
-.search {
-  position: absolute;
-  width: 50px;
-  height: 20px;
-  background-color: #81b3d2;
-  color: #ffffff;
-
-}
-.search:hover {
-  background-color: #669ec0;
-  color: #ffffff;
-}
-.search:active {
-  background-color: #5496bd;
-  color: #88b6d1;
   opacity: 0.8;
 }
 
-.quote {
-  text-align: center;
+.btn-left {
+  background-color: #81b3d2;
+  color: #ffffff;
 }
 
-.quote h2 {
-  font-size: 21px;
-  font-family: sans-serif;
-  font-weight: bold;
-  word-wrap: break-word;
-  margin-left: 500px;
-  margin-top: 50px;
-  width: 500px;
+.btn-left:hover {
+  color: #ffffff;
+  background-color: #669ec0;
 }
 
-.quote p {
-  font-family: sans-serif;
-  font-weight: normal;
-  text-align: center;
-  margin-top: 30px;
+.btn-left:active {
+  color: #88b6d1;
+  background-color: #5496bd;
+  opacity: 0.8;
 }
 
 .footer p {
-  position: relative;
   top: 15px;
+  position: relative;
   left: 280px;
 }
 
 .social-link .twitter::before {
-  content: "";
   width: 30px;
+  content: "";
   height: 30px;
   left: 725px;
-  top: 3225px;
+  top: 1900px;
   position: absolute;
-  background-position: 6px , center;
+  background-position: 6px, center;
   background-repeat: no-repeat;
   background-image: url(/img/icon-twitter.svg);
   background-color: #81b3d2;
 }
+
 .social-link .facebook::before {
   content: "";
   width: 30px;
   height: 30px;
   left: 760px;
-  top: 3225px;
+  top: 1900px;
   position: absolute;
-  background-position: 6px , center;
+  background-position: 6px, center;
   background-repeat: no-repeat;
   background-image: url(/img/fb-icon.svg);
   background-color: #81b3d2;
 }
+
 .social-link .youtube::before {
   content: "";
   width: 30px;
   height: 30px;
   left: 795px;
-  top: 3225px;
+  top: 1900px;
   position: absolute;
-  background-position: 6px , center;
+  background-position: 6px, center;
   background-repeat: no-repeat;
   background-image: url(/img/icon-youtube.svg);
   background-color: #81b3d2;
@@ -222,9 +163,11 @@ ul {
 .social li {
   background-color: #81b3d2;
 }
+
 .social li:focus {
   background-color: #669ec0;
 }
+
 .social li:active {
   background-color: #5496bd;
   opacity: 0.8;
@@ -233,12 +176,15 @@ ul {
 .footer .link-academy {
   text-align: right;
 }
+
 .link-academy a {
   color: #000000
 }
+
 .link-academy a:hover {
   color: #81b3d2;
 }
+
 .link-academy a:active {
   color: #bdbbbc;
 }
