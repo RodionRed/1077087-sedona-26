@@ -55,9 +55,11 @@ ul {
 .hotels .amara {
   color: #000000;
 }
+
 .hotels .amara:hover {
   color: #81b3d2;
 }
+
 .hotels .amara:active {
   color: #b2b2b2;
 }
@@ -65,9 +67,11 @@ ul {
 .hotels .quail {
   color: #000000;
 }
+
 .hotels .quail:hover {
   color: #81b3d2;
 }
+
 .hotels .quail:active {
   color: #b2b2b2;
 }
@@ -75,9 +79,11 @@ ul {
 .hotels .poco {
   color: #000000;
 }
+
 .hotels .poco:hover {
   color: #81b3d2;
 }
+
 .hotels .poco:active {
   color: #b2b2b2;
 }

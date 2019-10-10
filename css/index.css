@@ -28,8 +28,9 @@ a {
 .site-navigation a {
   color: #000000;
 }
+
 .site-navigation a:hover {
-  color: #81b3d2 ;
+  color: #81b3d2;
 }
 
 .site-navigation a:active {
@@ -128,10 +129,12 @@ ul {
 .button-plus {
   color: #a9a9a9;
 }
+
 .button-minus:hover,
 .button-plus:hover {
   color: #000000;
 }
+
 .button-minus:active,
 .button-minus:active {
   color: #81b3d2;
@@ -145,10 +148,12 @@ ul {
   color: #ffffff;
 
 }
+
 .search:hover {
   background-color: #669ec0;
   color: #ffffff;
 }
+
 .search:active {
   background-color: #5496bd;
   color: #88b6d1;
@@ -189,11 +194,12 @@ ul {
   left: 725px;
   top: 3225px;
   position: absolute;
-  background-position: 6px , center;
+  background-position: 6px, center;
   background-repeat: no-repeat;
   background-image: url(/img/icon-twitter.svg);
   background-color: #81b3d2;
 }
+
 .social-link .facebook::before {
   content: "";
   width: 30px;
@@ -201,11 +207,12 @@ ul {
   left: 760px;
   top: 3225px;
   position: absolute;
-  background-position: 6px , center;
+  background-position: 6px, center;
   background-repeat: no-repeat;
   background-image: url(/img/fb-icon.svg);
   background-color: #81b3d2;
 }
+
 .social-link .youtube::before {
   content: "";
   width: 30px;
@@ -213,7 +220,7 @@ ul {
   left: 795px;
   top: 3225px;
   position: absolute;
-  background-position: 6px , center;
+  background-position: 6px, center;
   background-repeat: no-repeat;
   background-image: url(/img/icon-youtube.svg);
   background-color: #81b3d2;
@@ -222,9 +229,11 @@ ul {
 .social li {
   background-color: #81b3d2;
 }
+
 .social li:focus {
   background-color: #669ec0;
 }
+
 .social li:active {
   background-color: #5496bd;
   opacity: 0.8;
@@ -233,12 +242,15 @@ ul {
 .footer .link-academy {
   text-align: right;
 }
+
 .link-academy a {
   color: #000000
 }
+
 .link-academy a:hover {
   color: #81b3d2;
 }
+
 .link-academy a:active {
   color: #bdbbbc;
 }
