@@ -71,30 +71,31 @@ ul {
 }
 
 .future-promo h2 {
+  margin: 0 auto;
   font-size: 21px;
   text-transform: uppercase;
   text-align: center;
-  font-family: sans-serif;
-  font-weight: bold;
-  word-wrap: break-word;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 700;
   margin-top: 50px;
+  width: 500px;
 }
 
 .future-promo p {
   font-size: 14px;
   color: #333333;
-  font-family: sans-serif;
-  font-weight: normal;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 400;
 }
 
 .future-blue h3 {
   font-size: 21px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .future-blue p {
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .future-blue .future-text {
@@ -110,7 +111,7 @@ ul {
 
 .section-one .number {
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .section-two .item-blue {
@@ -196,18 +197,19 @@ ul {
 }
 
 .quote h2 {
+  margin: 0 auto;
   font-size: 30px;
-  font-family: sans-serif;
-  font-weight: bold;
-  word-wrap: break-word;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 700;
   text-align: center;
   margin-top: 50px;
+  width: 500px;
 }
 
 .quote p {
   font-size: 14px;
-  font-family: sans-serif;
-  font-weight: normal;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 400;
   text-align: center;
   margin-top: 30px;
 }
@@ -218,16 +220,15 @@ ul {
   left: 280px;
 }
 
+
 .social-link .twitter::before {
   content: "";
   width: 30px;
   height: 30px;
-  left: 725px;
-
   position: absolute;
   background-position: 6px, center;
   background-repeat: no-repeat;
-  background-image: url(/img/icon-twitter.svg);
+  background-image: url("../img/icon-twitter.svg");
   background-color: #81b3d2;
 }
 
@@ -235,12 +236,10 @@ ul {
   content: "";
   width: 30px;
   height: 30px;
-  left: 760px;
-
   position: absolute;
   background-position: 6px, center;
   background-repeat: no-repeat;
-  background-image: url(/img/fb-icon.svg);
+  background-image: url("../img/fb-icon.svg");
   background-color: #81b3d2;
 }
 
@@ -248,12 +247,10 @@ ul {
   content: "";
   width: 30px;
   height: 30px;
-  left: 795px;
-
   position: absolute;
   background-position: 6px, center;
   background-repeat: no-repeat;
-  background-image: url(/img/icon-youtube.svg);
+  background-image: url("../img/icon-youtube.svg");
   background-color: #81b3d2;
 }
 
@@ -288,12 +285,12 @@ ul {
 
 .section-criteria label {
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .section-criteria legend {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .section-sorting .price {
@@ -316,20 +313,40 @@ ul {
   color: #000000;
 }
 
+.sorting-btn .down-dir {
+  fill: #cacaca;
+}
+.sorting-btn .down-dir:hover {
+  fill: #231f20;
+}
+.sorting-btn .down-dir:active {
+  fill: #81b3d2;
+}
+
+.sorting-btn .up-dir {
+  fill: #81b3d2;
+}
+.sorting-btn .up-dir:hover {
+  fill: #231f20;
+}
+.sorting-btn .up-dir:active {
+  fill: #81b3d2;
+}
+
 .hotels tr {
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
   color: #333333;
 }
 
 .hotels .hotel-name {
   font-size: 21px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .hotels .btn {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .hotels .amara {
@@ -368,33 +385,33 @@ ul {
   color: #b2b2b2;
 }
 
-.btn-right {
+.btn-to-book {
   color: white;
   background-color: #766357;
 }
 
-.btn-right:hover {
+.btn-to-book:hover {
   color: white;
   background-color: #604e43;
 }
 
-.btn-right:active {
+.btn-to-book:active {
   color: #857871;
   background-color: #503e33;
   opacity: 0.8;
 }
 
-.btn-left {
+.btn-details {
   background-color: #81b3d2;
   color: #ffffff;
 }
 
-.btn-left:hover {
+.btn-details:hover {
   color: #ffffff;
   background-color: #669ec0;
 }
 
-.btn-left:active {
+.btn-details:active {
   color: #88b6d1;
   background-color: #5496bd;
   opacity: 0.8;

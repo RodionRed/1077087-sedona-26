@@ -83,19 +83,14 @@
       <div class="section-sorting">
         <p>Сортировка</p>
         <ul>
-          <li class="sorting price">по цене</li>
+          <li class="sorting price"><a></a>по цене</li>
           <li class="sorting type">по типу</li>
           <li class="sorting rating">по рейтингу</li>
         </ul>
-        <!-- не могу понять как настроить стрелки -->
-        <div class="sorting-btn">
-          <a class="down-dir" href="#">
-            <div class="icon-down"><img src="/img/icon-down-dir.svg"></div>
-          </a>
-          <a href="#">
-            <div class="icon-up"></div>
-          </a>
-        </div>
+        <ul class="sorting-btn">
+          <li><a class="down-dir" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="10"><path d="M5.5 10L0 0h11"/></svg></a></li>
+          <li><a class="up-dir" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="10"><path d="M5.5 0L0 10h11z"/></svg></a></li>
+        </ul>
       </div>
       <div class="hotels">
         <ul>
@@ -108,8 +103,8 @@
                 <td class="pricehotel">от 4000 р.</td>
               </tr>
             </table>
-            <a class="btn btn-left" href="#">Подробнее</a>
-            <a class="btn btn-right" href="#">Забронировать</a>
+            <a class="btn btn-details" href="#">Подробнее</a>
+            <a class="btn btn-to-book" href="#">Забронировать</a>
           </li>
         </ul>
         <ul>
@@ -122,8 +117,8 @@
                 <td class="pricehotel">от 3000 р.</td>
               </tr>
             </table>
-            <a class="btn btn-left" href="#">Подробнее</a>
-            <a class="btn btn-right" href="#">Забронировать</a>
+            <a class="btn btn-details" href="#">Подробнее</a>
+            <a class="btn btn-to-book" href="#">Забронировать</a>
           </li>
         </ul>
         <ul>
@@ -136,8 +131,8 @@
                 <td class="pricehotel">от 2000 р.</td>
               </tr>
             </table>
-            <a class="btn btn-left" href="#">Подробнее</a>
-            <a class="btn btn-right" href="#">Забронировать</a>
+            <a class="btn btn-details" href="#">Подробнее</a>
+            <a class="btn btn-to-book" href="#">Забронировать</a>
           </li>
         </ul>
       </div>
@@ -145,7 +140,7 @@
   </main>
   <footer>
     <p>#visitsedona</p>
-    <ul class="x">
+    <ul class="social">
       <li><a class="social-link" href="#" value="twitter"><span class="twitter"></span></a> </li>
       <li><a class="social-link" href="#" value="facebook"><span class="facebook"></span></a></li>
       <li><a class="social-link" href="#" value="youtube"><span class="youtube"></span></a></li>
