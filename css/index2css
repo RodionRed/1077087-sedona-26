@@ -1,17 +1,23 @@
+
+
+html {
+  box-sizing: border-box;
+}
+
 .site {
   box-sizing: border-box;
   width: 1200px;
 }
+
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+
 
   font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 14px;
   line-height: 24px;
   font-weight: 700;
   color: #000000;
@@ -23,18 +29,20 @@ a {
 }
 
 .visually-hidden {
-  text-indent: 100%;
+  text-align: center;
   white-space: nowrap;
   overflow: hidden;
 }
 
-.main-navigation {
-  font-size: 16px;
+.site-main {
+  font-size: px;
   line-height: 20px;
 }
 
 .site-navigation a {
   color: #000000;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .site-navigation a:hover {
@@ -47,31 +55,53 @@ a {
 
 .site-navigation ul {
   float: left;
-  margin-left: 150px;
+  margin-left: 1200px;
+}
+
+}
+
+.logo-sedona style {
+  margin-left: 0px;}
+
+.site-navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0px;
 }
 
 .site-navigation li {
   display: inline;
   padding: 0px 1px;
-  margin-left: 150px;
+  margin-left: 0px;
 }
 
 .top-image {
   display: flex;
-  position: relative;
+  background-position: center;;
   height: 500px;
+  width: 1200px;
   background: #517ca4 url("../img/sedona-home-screen.png") no-repeat 50% 21%;
 }
 
+.top-image .welcome-down {
+  position: absolute;
+  width: 1200px;
+  height: 59px;
+  margin-top: 442px;
+}
+
+
 ul {
   list-style: none;
+  padding: 0px;
 }
 
 
 .word-welcome {
-  margin-top: 150px;
-  text-align: center;
-  font-size: 300px;
+  position: absolute;
+  left: 400px;
+  bottom: -200px;
 }
 
 .future-promo {
@@ -94,7 +124,7 @@ ul {
   font-size: 14px;
   color: #333333;
   font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: 400;
+  font-weight: 400;s
 }
 
 .future-blue {
@@ -121,12 +151,16 @@ ul {
 }
 
 .section-one .item-blue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 400px;
   background-color: #81b3d2;
   color: #ffffff;
 }
 
 .section-one h3,
+
 .section-one p {
   text-align: center;
   padding-top: 20px;
@@ -143,9 +177,10 @@ ul {
 }
 
 .section-one .number {
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 2px;
+  font-weight: 800;
 }
+
 
 .housing::before {
   content: "";
@@ -173,8 +208,10 @@ ul {
 }
 
 .section-two .item-blue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 400px;
-  height: 256px;
   background-color: #81b3d2;
   color: #ffffff;
 }
@@ -194,6 +231,8 @@ ul {
   margin: 0 auto;
   width: 320px;
 }
+
+
 
 .section-blue .item-two {
   display: flex;

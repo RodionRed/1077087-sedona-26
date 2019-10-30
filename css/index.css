@@ -2,6 +2,11 @@
   box-sizing: border-box;
   width: 1200px;
 }
+
+html {
+  box-sizing: border-box;
+  width: 1200px;
+}
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -22,6 +27,10 @@ a {
   text-decoration: none;
 }
 
+ul{
+  padding-left: 0px;
+}
+
 .visually-hidden {
   text-indent: 100%;
   white-space: nowrap;
@@ -31,6 +40,16 @@ a {
 .main-navigation {
   font-size: 16px;
   line-height: 20px;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-height: 50px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-bottom: -100px;
 }
 
 .site-navigation a {
@@ -53,7 +72,6 @@ a {
 .site-navigation li {
   display: inline;
   padding: 0px 1px;
-  margin-left: 150px;
 }
 
 .top-image {
@@ -77,8 +95,14 @@ ul {
 
 
 .word-welcome {
-  margin-top: 150px;
-  font-size: 300px;
+  position: absolute;
+  left: 385px;
+  bottom: 100px;
+}
+
+.future-item {
+  display: flex;
+  justify-content: space-around;
 }
 
 .future-promo {
