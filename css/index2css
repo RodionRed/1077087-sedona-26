@@ -63,14 +63,6 @@ a {
   background: #517ca4 url("../img/sedona-home-screen.png") no-repeat 50% 21%;
 }
 
-.top-image .welcome-down {
-  position: absolute;
-  margin-top: 442px;
-  width: 1201px;
-  height: 59px;
-}
-
-
 ul {
   list-style: none;
 }
@@ -78,6 +70,7 @@ ul {
 
 .word-welcome {
   margin-top: 150px;
+  text-align: center;
   font-size: 300px;
 }
 
@@ -128,9 +121,6 @@ ul {
 }
 
 .section-one .item-blue {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   width: 400px;
   background-color: #81b3d2;
   color: #ffffff;
@@ -156,7 +146,6 @@ ul {
   font-size: 14px;
   font-weight: 400;
 }
-
 
 .housing::before {
   content: "";
@@ -184,10 +173,8 @@ ul {
 }
 
 .section-two .item-blue {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   width: 400px;
+  height: 256px;
   background-color: #81b3d2;
   color: #ffffff;
 }
