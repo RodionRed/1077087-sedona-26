@@ -1,5 +1,6 @@
 .site {
   margin: 0 auto;
+  min-width: 1200px;
   width: 1200px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
@@ -15,15 +16,16 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 21px;
   font-weight: 400;
   color: #000000;
   background-color: #f0f0f0;
   text-transform: uppercase;
+  min-width: 1200px;
 }
 
 header {
@@ -57,8 +59,9 @@ ul {
 }
 
 .main-navigation {
+  position: relative;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 21px;
 }
 
 .site-navigation {
@@ -80,7 +83,7 @@ ul {
 
 .menu-item-left {
   display: block;
-  padding-left: 70px;
+  padding-left: 71px;
 }
 
 li.menu-item-right {
@@ -93,12 +96,14 @@ li.menu-item-right {
   text-align: right;
 }
 
-.menu-item-right li:first-of-type {
-  padding-right: 79px;
+.site-navigation li:nth-child(3) {
+  padding-right: 75px;
+  letter-spacing: 0.4px;
 }
 
-.menu-item-left:nth-child(2) {
+.site-navigation li:nth-child(2) {
   margin-right: auto;
+  padding-left: 73px;
 }
 
 .menu-item-right:nth-child(1) {
@@ -179,10 +184,6 @@ ul {
   justify-content: space-around;
 }
 
-.future {
-  padding-top: 3px;
-}
-
 .future .future-title {
   width: 500px;
   margin: 0 auto;
@@ -191,6 +192,7 @@ ul {
   font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 21px;
+  line-height: 26px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -204,6 +206,7 @@ ul {
   font-size: 14px;
   text-align: center;
   color: #333333;
+  padding-bottom: 2px;
 }
 
 .future-item-blue {
@@ -220,17 +223,19 @@ ul {
 
 .item-one .future-name {
   max-width: 142px;
-  margin-top: 0px;
+  margin-top: 2px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 21px;
+  line-height: 21px;
 }
 
 .future .future-text {
-  margin-top: 5px;
+  margin-top: 7px;
   margin-bottom: 0;
   font-weight: 400;
   font-size: 14px;
+  line-height: 21px;
   color: #333333;
   max-width: 304px;
 }
@@ -262,6 +267,7 @@ ul {
 .section-one h3,
 .section-one p {
   text-align: center;
+  line-height: 21px;
 }
 
 .section-one h3 {
@@ -278,7 +284,7 @@ ul {
 
 
 .future-number {
-  margin-top: 20px;
+  margin-top: 25px;
   font-weight: 400;
   font-size: 14px;
 }
@@ -329,6 +335,16 @@ ul {
   background: url("../img/icon-present.svg") no-repeat center bottom;
 }
 
+.section-blue ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section-blue li {
+  width: 100%;
+}
+
 .section-blue .item-one {
   display: flex;
   align-items: flex-start;
@@ -336,6 +352,7 @@ ul {
 
 .item-one .future-text {
   text-align: center;
+  margin-top: 26px;
 }
 
 .section-two {
@@ -353,7 +370,7 @@ ul {
 }
 
 .section-two .future-item {
-  padding: 43px 48px 16px 48px;
+  padding: 46px 48px 16px 48px;
   text-align: center;
 }
 
@@ -363,9 +380,9 @@ ul {
 
 .future-item-gray .future-item-wrapper {
   min-height: 256px;
-  padding-top: 45px;
+  padding-top: 47px;
   padding-bottom: 60px;
-  line-height: 23px;
+  line-height: 21px;
 }
 
 .search-btn {
@@ -378,7 +395,7 @@ ul {
   line-height: 86px;
   text-align: center;
   color: #ffffff;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.6px;
   background-color: #766357;
 }
 
@@ -454,6 +471,7 @@ ul {
   align-items: center;
   width: 100%;
   font-weight: 700;
+  letter-spacing: 0.3px;
 }
 
 .form-date-icon {
@@ -560,7 +578,7 @@ ul {
 }
 
 .quote {
-  padding-top: 48px;
+  padding-top: 51px;
   min-height: 290px;
 }
 
@@ -570,18 +588,18 @@ ul {
   font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 30px;
-  line-height: 38px;
+  line-height: 36px;
   text-align: center;
 }
 
 .quote p {
   max-width: 450px;
   min-height: 50px;
-  margin: 27px auto 41px auto;
+  margin: 25px auto 43px auto;
   font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 22px;
+  line-height: 24px;
   text-align: center;
 }
 
@@ -628,6 +646,7 @@ ul {
 }
 
 @-moz-document url-prefix() {
+
   .future-item-gray .future-item-wrapper {
     min-height: 250px;
     padding-bottom: 56px;
@@ -746,13 +765,14 @@ ul {
 .section-sorting {
   display: flex;
   align-items: baseline;
-  padding: 22px 72px 18px 72px;
+  padding: 24px 72px 18px 72px;
 }
 
 .section-sorting b {
   margin-right: 49px;
   font-weight: 700;
   font-size: 21px;
+  line-height: 26px;
 }
 
 .section-sorting p {
@@ -837,7 +857,7 @@ ul {
 .section-criteria {
   display: flex;
   height: 217px;
-  padding: 26px 68px 28px 71px;
+  padding: 27px 68px 28px 71px;
   color: #ffffff;
   background: url("../img/hotel-top-photo.jpg") no-repeat center -55px;
 }
@@ -971,14 +991,17 @@ ul {
 
 .hotel h3 {
   margin: 0;
-  margin-top: -3px;
+  margin-top: -6px;
 }
 
 .hotel {
   display: flex;
   align-items: flex-start;
-  padding: 28px 72px 29px 72px;
+  width: 100%;
+  padding: 29px 72px 29px 72px;
   border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid transparent;
+  min-height: 151px;
 }
 
 .hotel:last-of-type {
@@ -989,9 +1012,15 @@ ul {
   margin-left: 30px;
 }
 
+.hotels ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .hotel-table {
-  margin-bottom: 10px;
-  margin-top: 3px;
+  margin-bottom: 12px;
+  margin-top: 6px;
   font-size: 14px;
 }
 
@@ -1003,8 +1032,9 @@ ul {
 
 .hotels .hotel-name {
   font-weight: 700;
-  line-height: 21px;
+  line-height: 26px;
   font-size: 21px;
+  letter-spacing: 0.3px;
 }
 
 .hotels .btn {
@@ -1013,7 +1043,7 @@ ul {
 }
 
 .hotel-amara .pricehotel {
-  padding-right: 26px;
+  padding-right: 35px;
   padding-left: 0;
 }
 
@@ -1067,6 +1097,7 @@ ul {
   display: inline-block;
   padding: 0 17px;
   line-height: 27px;
+  min-height: 27px;
 }
 
 .btn-to-book {
@@ -1144,11 +1175,11 @@ ul {
 }
 
 .searching-checkbox {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 
 .searching-checkbox li {
-  margin-bottom: 22px;
+  margin-bottom: 25px;
 }
 
 .form-group-checkbox .checkbox {
@@ -1163,6 +1194,7 @@ ul {
   position: relative;
   padding-left: 40px;
   cursor: pointer;
+  line-height: 21px;
 }
 
 .section-criteria .label-for-checkbox::before {
